@@ -24,3 +24,48 @@ body {
 .page {
   padding: 30px;
 }
+
+.contact-form {
+  max-width: 500px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.error {
+  color: red;
+  margin: 5px 0 0;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  margin-top: 15px;
+  font-weight: bold;
+}
